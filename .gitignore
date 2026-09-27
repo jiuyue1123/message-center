@@ -1,0 +1,36 @@
+# 二进制
+/bin/
+/dist/
+*.exe
+*.dll
+*.so
+*.dylib
+message-center
+
+# 测试与覆盖率
+*.test
+*.out
+coverage.*
+/testdata/local/
+
+# Go 工具链
+/vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 本地配置与密钥
+*.local.yaml
+*.local.yml
+*.local.toml
+.env
+.env.*
+!.env.example
+
+# 操作系统
+.DS_Store
+Thumbs.db
